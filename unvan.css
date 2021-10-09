@@ -321,8 +321,13 @@ section h1{
     .box4{
         font-size: 150%;
     }
+    .box2{
+        text-align: left;
+    }
+    .box2 #input1{
+        width: 10rem;
+    }
 }
-
 
 @media(max-width: 375px){
     #ul1{
@@ -350,15 +355,5 @@ section h1{
     }
     .img_div{
         margin-left: 3rem;
-    }
-}
-
-
-@media(max-width: 320px){
-    .box2{
-        text-align: left;
-    }
-    .box2 #input1{
-        width: 10rem;
     }
 }
